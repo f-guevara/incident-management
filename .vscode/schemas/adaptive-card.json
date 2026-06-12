@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://adaptivecards.io/schemas/adaptive-card.json",
+  "title": "Adaptive Card (local stub)",
+  "description": "Local stub of the Adaptive Card schema to satisfy editor validation when remote access is restricted.",
+  "definitions": {
+    "AdaptiveCard": {
+      "type": "object",
+      "properties": {
+        "type": { "const": "AdaptiveCard" },
+        "version": { "type": "string" },
+        "body": { "type": "array", "items": {} }
+      },
+      "additionalProperties": true
+    }
+  },
+  "$ref": "#/definitions/AdaptiveCard"
+}
